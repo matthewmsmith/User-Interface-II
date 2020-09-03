@@ -1,1 +1,100 @@
 /* Add CSS styling here */
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ 
+}
+button {
+  padding: .5em;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: "Noto Serif JP", serif;
+  line-height: 1.6em;
+  max-width: 100%;
+  text-align: center;
+}
+/* RESETS AND DEFAULT SETUP*/
+.header {
+  background: #222222;
+  color: #ebebeb;
+  padding-bottom: 15em;
+}
+.header-name {
+  font-family: "Herr Von Muellerhoff", cursive;
+  text-align: left;
+  padding: 1em;
+}
+.nav-items {
+  display: flex;
+}
+.nav-item {
+  font-size: 1.2rem;
+  padding: 2em;
+  list-style-type: none;
+  
+}
+.nav-link {
+  color: #ebebeb;
+}
+.nav-link:hover {
+  background: #ebebeb;
+  color: #222222;
+  border-radius: 10px;
+  padding: .4em;
+}
+
+
+/* HEADER SETUP */
+
+.wrapper-introduction {
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+
+
+}
+
+.wrapper-profile-picture {
+  width: 100%;
+}
+.profile-picture{
+  width: 20%;
+  border-radius: 150px;
+  margin-right: 25em;
+  
+}
+
+.wrapper-about-me {
+  padding:1em;
+  width: 100%;
+}
+.intro-name2 {
+  padding-bottom: .9em;
+}
+
+.about-me {
+  padding: 1em 4em;
+  letter-spacing: .09em;
+}
+.wrapper-portfolio-items{
+  margin-top: 8em;
+}
+.footer {
+  background: #222222;
+  padding: 8em 0;
+}
+.button {
+  padding: 2em;
+}
+.contact {
+  padding: 1em;
+}
